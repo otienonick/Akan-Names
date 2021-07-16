@@ -23,18 +23,14 @@ body{
     display: flex;
     justify-content: space-around;
 }
-@media (max-width:992px){
-
-    .my-things{
-        margin-left: -100px;
-
+@media (max-width:592px){
+   
+    *{
+        font-size: .7rem;
     }
-    .item1:hover { width: 260px !important;
-        
-    }
-    .item2:hover { width: 160px !important;
-        
-    }
+   .my-handles img{
+       width: 20px;
+}
 
 
 
@@ -102,3 +98,34 @@ u{
         box-shadow: 0 0 5px rgb(138, 133, 133);
         transform: scale(1.2);
     }
+    span p{
+        color: #e68a00;
+        text-shadow: 0 0 50px;
+        font-size: 2rem;
+        font-weight: 700;
+        animation: flicker 1.5s   infinite;    
+    } 
+    @keyframes flicker {  
+        100%{ color:red; }
+        50% {color: #e68a00;}
+        75%{color: #017143;}
+    }
+
+    .my-handles{
+        text-align: center;
+        color: #fff;
+        
+    }
+    
+    .my-handles img{
+        padding: 0 2%  ;
+    }
+    .foot-section{
+        background: #e68a00;
+        display: flex;
+        justify-content: center;
+    
+    }
+    /* *{
+        border: 1px  lime;
+    } */
