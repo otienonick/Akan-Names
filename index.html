@@ -78,12 +78,70 @@
                   </ul>
                 </div>
                 </div>
-                
+
                 <h1 class="flexible" ><a href="#form-section">Know Your Akan Name!</a> </h1>
 
             </div>
             </div>
-            </div>
+
+            <div class="container lifestyle">
+                <div class="arrange">
+     
+                 <img src="./images/zeida.jpeg" class="img-fluid zeda" width="600px" alt="">
+     
+                 
+     
+                  
+                   </div>
+                   
+     
+                   <div class="container ">
+     
+                   <h2>Fill this Section.</h2>
+     
+                <form id="form-section" class="row  g-3" onsubmit="return false">
+                    <div class="form-group" >
+                        <label for="year" class="labels">Year:</label> 
+                        <input type="number" class="form-control" placeholder="YY" name="year"  id="year" min="1900" max="2030" required> 
+                    </div>
+        
+                    <div class="form-group" >
+                        <label for="month" class="labels"> Month:</label> 
+                        <input type="number" class="form-control" placeholder="MM"  name="month" id="month" min="1" max="12"  required> 
+                    </div>
+        
+                    <div class="form-group" >
+                        <label for="date" class="labels">Date:</label> 
+                        <input type="number" class="form-control" placeholder="DD"   name="date" id="date" min="1" max="31"required> 
+                    </div>
+        
+                    <div class="form-group" >
+                        <h6>Gender:</h6>
+                        <label for="male">Male</label>
+                        <input id ="gender1" name="gender" type="radio" value="male" required ><br>
+        
+                        <label for="female">Female</label>
+                        <input id = "gender2" name="gender" type="radio" value="female" required>
+                    </div>
+                     <div class="form-group justify-center">
+                    
+                    <button  class="flavour-but btn" type="submit" onclick="akanName()"> Search Your Akan Name  <i class="bi bi-search"></i></button>
+                    <button  class="flavour-but btn"  type="submit"  onclick="location.reload()">Clear <i class="bi bi-x-circle-fill"></i></button>
+        
+                     </div>
+                   
+                </form>
+        
+                  <span><p id="post"></p></span> 
+                  <span><p id="post2"></p></span>
+                
+        
+        </div>
+     
+                </div>
+     
+            
+     </div>
 <script src="./js/bootstrap.js"></script>
     <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
