@@ -68,3 +68,21 @@ u{
     ul{
         list-style: decimal;
     }
+    .flexible {
+        text-align: center;
+        font-size: 4rem;
+        color: #e68a00;
+        animation: fl1 5s infinite linear;
+        transform: translate(0);
+    }
+    @keyframes fl1{
+        50%{transform:translateX(-10px) rotate(1deg);}
+        100%{transform: translate(10px) rotate(-1deg);}
+        75%{transform: translateY(-10px) rotate(1deg);}
+        0%{transform: translateX(10px) rotate(-1deg);}
+      
+     }
+     .flexible a{
+        color: #e68a00;
+        text-decoration: none;
+    }
