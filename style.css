@@ -126,6 +126,19 @@ u{
         justify-content: center;
     
     }
+    .upbutton {
+        position: fixed;
+        width: 3%;
+        background-color:#e68a00;
+        border-radius: 50%;
+        bottom:3% ;
+        right: 1%;
+        text-align: center;
+        line-height: 40px;
+        box-shadow: 0 0 5px white;
+        
+        
+    }
     /* *{
         border: 1px  lime;
     } */
