@@ -33,12 +33,13 @@
 <img src="./images/number2.png" alt="skill page">
 
 ## Contacs: 
-<a href="https://github.com/otienonick" target="_blank" ><img src="./images/github-logo-24 (2).png"></a> 
-      <a href="https://twitter.com/the_nickotee"  target="_blank"> <img src="./images/twitter-logo-24 (1).png"></a>
-          <a href="https://web.facebook.com/nick.ke.7334" target="_blank"> <img src="./images/facebook-logo-24 (1).png"></a>
-              <a href="https://www.instagram.com/the_nickotee/" target="_blank"><img src="./images/instagram-alt-logo-24 (1).png"></a>
-              
-## Call or SmS : 0718849600
-# &copy;2021 Nick Otieno.
+<a href="https://twitter.com/the_nickotee"  target="_blank"> <img src="./images/bxl-twitter.svg"></a>
+    <a href="https://web.facebook.com/nick.ke.7334" target="_blank"> <img src="./images/bxl-facebook.svg"></a>
+        <a href="https://www.instagram.com/the_nickotee/" target="_blank"><img src="./images/bxl-instagram-alt.svg"></a>
+
+
+##   <a href="https://www.instagram.com/the_nickotee/" target="_blank"><img src="./images/bxl-whatsapp.svg"></a>: 0718849600
+
+## &copy;2021 Nick Otieno.
 
 
