@@ -37,3 +37,68 @@ function checkGender(){
     }
 
 }
+
+function akanName(){
+    var boy = ["Kwasi!", "Kwadwo!", "Kwabena!", "Kwaku!", "Yaw!", "Kofi!", "Kwame!"];
+    var days = ["Sunday." ,"Monday." , "Tuesday." , "wednesday." , "Thursday." , "Friday." , "Saturday."]
+    var girl = ["Akosua!", "Adwoa!", "Abenaa!", "Akua!", "Yaa!", "Afua!", "Ama!"];
+  var arrive =  document.getElementById("post");
+  var arrive2 = document.getElementById('post2');
+
+    if (checkGender() === "male")
+      {
+        arrive.innerHTML="Your Akan Name is " +  boy[validateForm()];
+        arrive2.innerHTML="Born on " + days[validateForm()];
+
+
+        var duration = 15 * 1000;
+        var animationEnd = Date.now() + duration;
+        var defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+        
+        function randomInRange(min, max) {
+          return Math.random() * (max - min) + min;
+        }
+        
+        var interval = setInterval(function() {
+          var timeLeft = animationEnd - Date.now();
+        
+          if (timeLeft <= 0) {
+            return clearInterval(interval);
+          }
+        
+          var particleCount = 50 * (timeLeft / duration);
+          // since particles fall down, start a bit higher than random
+          confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } }));
+          confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
+        }, 250);
+
+    }else if(checkGender() === "female"){
+        arrive.innerHTML = "Your Akan Name is "  + girl[validateForm()];
+        arrive2.innerHTML= "Born on " + days[validateForm()];
+
+         var duration = 15 * 1000;
+        var animationEnd = Date.now() + duration;
+        var defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+        
+        function randomInRange(min, max) {
+          return Math.random() * (max - min) + min;
+        }
+        
+        var interval = setInterval(function() {
+          var timeLeft = animationEnd - Date.now();
+        
+          if (timeLeft <= 0) {
+            return clearInterval(interval);
+          }
+        
+          var particleCount = 50 * (timeLeft / duration);
+          // since particles fall down, start a bit higher than random
+          confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } }));
+          confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
+        }, 250);
+
+      }
+}
+
+
+
