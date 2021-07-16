@@ -12,3 +12,28 @@ function validateForm(){
         return dayoFtheWeek;
     }
 }
+
+function checkGender(){
+
+    var radioCheck = document.getElementsByName('gender');
+    const radio1  = document.getElementById('gender1');
+    const radio2  = document.getElementById('gender2');
+
+
+
+     if(!(radioCheck[0].checked || radioCheck[1].checked))
+     {
+     return false;
+    }else
+    {
+        if (radio1.checked) {
+            radioCheck = radio1.value;
+            return radioCheck;      
+        }else if (radio2.checked){
+            radioCheck = radio2.value;
+            return radioCheck;
+
+        }
+    }
+
+}
