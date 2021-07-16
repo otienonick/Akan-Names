@@ -26,7 +26,7 @@ body{
 @media (max-width:992px){
 
     .my-things{
-        margin-left: -200px;
+        margin-left: -100px;
 
     }
     .item1:hover { width: 260px !important;
@@ -38,3 +38,17 @@ body{
   
 
 }
+.names-write{
+
+    font-size: 1.3rem;
+}
+.floater{
+    float: right;
+}
+u{
+    color: #e68a00;
+}
+.names-write strong{
+    font-weight: 400;
+    color: #e68a00;
+    }
