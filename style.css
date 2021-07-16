@@ -37,6 +37,11 @@ body{
     }
   
 
+
+}
+
+.names-head{
+    text-align: center;
 }
 .names-write{
 
@@ -51,4 +56,15 @@ u{
 .names-write strong{
     font-weight: 400;
     color: #e68a00;
+    }
+    .akan-names{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    h6{
+        font-weight: 700;
+    }
+    ul{
+        list-style: decimal;
     }
