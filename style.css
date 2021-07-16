@@ -35,7 +35,7 @@ body{
     .item2:hover { width: 160px !important;
         
     }
-  
+
 
 
 }
@@ -85,4 +85,20 @@ u{
      .flexible a{
         color: #e68a00;
         text-decoration: none;
+    }
+    .last-zeida{
+        float: left;
+    }
+    .lifestyle{
+        display: flex;
+    }
+    .flavour-but{
+        background: #e68a00;
+        border: none;
+        margin: 2%;
+       
+    }
+    .flavour-but:active{
+        box-shadow: 0 0 5px rgb(138, 133, 133);
+        transform: scale(1.2);
     }
