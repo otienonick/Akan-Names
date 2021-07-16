@@ -23,3 +23,18 @@ body{
     display: flex;
     justify-content: space-around;
 }
+@media (max-width:992px){
+
+    .my-things{
+        margin-left: -200px;
+
+    }
+    .item1:hover { width: 260px !important;
+        
+    }
+    .item2:hover { width: 160px !important;
+        
+    }
+  
+
+}
