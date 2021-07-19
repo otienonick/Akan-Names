@@ -8,7 +8,7 @@ function validateForm(){
     return false;
   }else{
     var CC = year.slice(0, 1);
-    var YY = year.slice(2, 3);
+    var YY = year.slice(2, 4);
       var dayoFtheWeek = Math.floor((((CC/4)-2*CC-1)+((5*YY/4))+((26*(MM+1)/10)) + DD) % 7);
       return dayoFtheWeek;
   }
